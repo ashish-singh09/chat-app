@@ -10,9 +10,7 @@ let socket;
 
 const ChatBox = () => {
 
-    const [messages, setMessages] = useState([
-        { message: "Hey! what are you doing?", user: "Ashish Singh", username: "ak47", imageUrl: "https://randomuser.me/api" }
-    ]);
+    const [messages, setMessages] = useState([]);
     const [message, setMessage] = useState('');
     const [length, setLength] = useState(0);
     const { isSignedIn, user } = useUser();
