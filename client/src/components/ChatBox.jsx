@@ -4,7 +4,7 @@ import { FiUser } from "react-icons/fi";
 import { useUser } from "@clerk/clerk-react";
 
 // const url = import.meta.env.VITE_BACKEND_URL;
-const url = "https://chat-app-q4qg.onrender.com";
+const url = "https://chat-app-nipl.onrender.com";
 
 let socket;
 
