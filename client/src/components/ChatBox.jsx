@@ -3,7 +3,8 @@ import { io } from "socket.io-client";
 import { FiUser } from "react-icons/fi";
 import { useUser } from "@clerk/clerk-react";
 
-const url = import.meta.env.VITE_BACKEND_URL;
+// const url = import.meta.env.VITE_BACKEND_URL;
+const url = "https://chat-app-q4qg.onrender.com";
 
 let socket;
 
